@@ -1,0 +1,193 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+main {
+    background: #EFF4FB;
+}
+
+.dc {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.border-skyblue-450 {
+    background: #fff;
+}
+
+.exchange-service-section {
+    max-width: 1139px;
+}
+
+section.bg-background2.pt-20.bg-cover {
+    padding-bottom: 70px;
+}
+
+.flex.justify-between.items-center.w-3\/4.mx-auto.mt-8 {
+    max-width: 1100px;
+}
+
+.mobile-img-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.rounded-3xl {
+    border-radius: 20px;
+}
+
+.mobile-img-section img {
+    margin-right: 50px;
+}
+
+.box-section .w-card {
+    width: 350px;
+    max-height: 350px;
+}
+
+.text-2xl {
+    font-size: 30px;
+}
+
+.card-bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    top: 8px;
+}
+
+.card-bg h4 {
+    font-size: 12px;
+    line-height: 20px;
+    max-height: 60px;
+}
+
+.card-bg .p-px {
+    padding: 1px;
+    margin-bottom: 0;
+    background: #001721;
+}
+
+.w-card svg {
+    margin-top: -15px;
+}
+
+.my-20 {
+    margin-top: 10rem;
+}
+
+span.bg-gray-100.p-4.rounded-md {
+    background: #EFF4FB;
+}
+
+.flex.gap-16.dc.items-center.w-3\/4.mx-auto {
+    margin: 100px 0;
+}
+
+button.bg-skyblue-450.px-12.py-4.text-2xl.rounded-xl.text-black {
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.register {
+    max-width: 70%;
+    width: 100%;
+    padding: 50px 100px;
+    border-radius: 20px;
+}
+
+.register-page h1 {
+    text-transform: uppercase;
+    font-size: 45px;
+}
+
+.register-page .outline-none {
+    border: 1px solid #ddd;
+}
+
+.register input,
+.register select {
+    height: 50px;
+}
+
+.btn-register {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.register button,
+button {
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all ease 0.2s;
+}
+
+.register button:hover,
+button:hover {
+    background: #21a9c7;
+    box-shadow: 0px 0px 5px #ababab;
+}
+
+.register label {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    display: flex;
+    align-items: center;
+}
+
+.register-page .outline-none:focus {
+    border: 1px solid #2ec6e8;
+}
+
+.country {
+    background: #000;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
